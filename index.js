@@ -18,7 +18,7 @@ if (process.env.NODE_ENV === 'production') {
 
 const PORT = process.env.PORT || 5000;
 
-console.log('port is -> ', PORT); // whatsts
+console.log('port is -> ', PORT); // whatstsa
 
 server.get('/', (req, res) => {
 	// sending back index.html
